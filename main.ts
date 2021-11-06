@@ -1,5 +1,5 @@
 makerbit.onIrButton(IrButton.Number_3, IrButtonAction.Pressed, function () {
-    serial.writeString("3 == " + id2str(makerbit.irButton()))
+    serial.writeLine("3 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . # . .
         . . . . .
@@ -9,7 +9,7 @@ makerbit.onIrButton(IrButton.Number_3, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_8, IrButtonAction.Pressed, function () {
-    serial.writeString("8 == " + id2str(makerbit.irButton()))
+    serial.writeLine("8 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -19,7 +19,7 @@ makerbit.onIrButton(IrButton.Number_8, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Hash, IrButtonAction.Pressed, function () {
-    serial.writeString("# == " + id2str(makerbit.irButton()))
+    serial.writeLine("# == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -29,7 +29,7 @@ makerbit.onIrButton(IrButton.Hash, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_0, IrButtonAction.Pressed, function () {
-    serial.writeString("0 == " + id2str(makerbit.irButton()))
+    serial.writeLine("0 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -39,7 +39,7 @@ makerbit.onIrButton(IrButton.Number_0, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_1, IrButtonAction.Pressed, function () {
-    serial.writeString("1 == " + id2str(makerbit.irButton()))
+    serial.writeLine("1 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         # . . . .
         . . . . .
@@ -49,7 +49,7 @@ makerbit.onIrButton(IrButton.Number_1, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_4, IrButtonAction.Pressed, function () {
-    serial.writeString("4 == " + id2str(makerbit.irButton()))
+    serial.writeLine("4 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         # . . . .
@@ -59,7 +59,7 @@ makerbit.onIrButton(IrButton.Number_4, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_5, IrButtonAction.Pressed, function () {
-    serial.writeString("5 == " + id2str(makerbit.irButton()))
+    serial.writeLine("5 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . # . . .
@@ -69,7 +69,7 @@ makerbit.onIrButton(IrButton.Number_5, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_6, IrButtonAction.Pressed, function () {
-    serial.writeString("6 == " + id2str(makerbit.irButton()))
+    serial.writeLine("6 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . # . .
@@ -78,14 +78,14 @@ makerbit.onIrButton(IrButton.Number_6, IrButtonAction.Pressed, function () {
         . . . . .
         `)
 })
-makerbit.onIrButton(IrButton.Any, IrButtonAction.Released, function () {
-    serial.writeString("released--")
-    serial.writeString("" + (id2str(makerbit.irButton())))
-    serial.writeString("--")
-    serial.writeValue(makerbit.irDatagram(), makerbit.irButton())
-})
+// makerbit.onIrButton(IrButton.Any, IrButtonAction.Released, function () {
+// serial.writeString("released--")
+// serial.writeString("" + (id2str(makerbit.irButton())))
+// serial.writeString("--")
+// serial.writeValue(makerbit.irDatagram(), makerbit.irButton())
+// })
 makerbit.onIrButton(IrButton.Left, IrButtonAction.Pressed, function () {
-    serial.writeString("L == " + id2str(makerbit.irButton()))
+    serial.writeLine("L == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -95,7 +95,7 @@ makerbit.onIrButton(IrButton.Left, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Number_7, IrButtonAction.Pressed, function () {
-    serial.writeString("7 == " + id2str(makerbit.irButton()))
+    serial.writeLine("7 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -105,7 +105,7 @@ makerbit.onIrButton(IrButton.Number_7, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Down, IrButtonAction.Pressed, function () {
-    serial.writeString("D == " + id2str(makerbit.irButton()))
+    serial.writeLine("D == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -115,7 +115,7 @@ makerbit.onIrButton(IrButton.Down, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Star, IrButtonAction.Pressed, function () {
-    serial.writeString("* == " + id2str(makerbit.irButton()))
+    serial.writeLine("* == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -125,7 +125,7 @@ makerbit.onIrButton(IrButton.Star, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Up, IrButtonAction.Pressed, function () {
-    serial.writeString("U == " + id2str(makerbit.irButton()))
+    serial.writeLine("U == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . # . .
         . . # . .
@@ -134,14 +134,14 @@ makerbit.onIrButton(IrButton.Up, IrButtonAction.Pressed, function () {
         . . . . .
         `)
 })
-makerbit.onIrButton(IrButton.Any, IrButtonAction.Pressed, function () {
-    serial.writeString("pressed---")
-    serial.writeString("" + (id2str(makerbit.irButton())))
-    serial.writeString("--")
-    serial.writeValue(makerbit.irDatagram(), makerbit.irButton())
-})
+// makerbit.onIrButton(IrButton.Any, IrButtonAction.Pressed, function () {
+// serial.writeString("pressed---")
+// serial.writeString("" + (id2str(makerbit.irButton())))
+// serial.writeString("--")
+// serial.writeValue(makerbit.irDatagram(), makerbit.irButton())
+// })
 makerbit.onIrButton(IrButton.Number_2, IrButtonAction.Pressed, function () {
-    serial.writeString("2 == " + id2str(makerbit.irButton()))
+    serial.writeLine("2 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . # . . .
         . . . . .
@@ -151,7 +151,7 @@ makerbit.onIrButton(IrButton.Number_2, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Right, IrButtonAction.Pressed, function () {
-    serial.writeString("R == " + id2str(makerbit.irButton()))
+    serial.writeLine("R == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -161,7 +161,7 @@ makerbit.onIrButton(IrButton.Right, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Ok, IrButtonAction.Pressed, function () {
-    serial.writeString("X == " + id2str(makerbit.irButton()))
+    serial.writeLine("X == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . # . .
@@ -210,7 +210,7 @@ function id2str (id: number) {
     }
 }
 makerbit.onIrButton(IrButton.Number_9, IrButtonAction.Pressed, function () {
-    serial.writeString("9 == " + id2str(makerbit.irButton()))
+    serial.writeLine("9 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -220,7 +220,7 @@ makerbit.onIrButton(IrButton.Number_9, IrButtonAction.Pressed, function () {
         `)
 })
 makerbit.onIrButton(IrButton.Unused_2, IrButtonAction.Pressed, function () {
-    serial.writeString("2 == " + id2str(makerbit.irButton()))
+    serial.writeLine("2 == " + id2str(makerbit.irButton()))
     basic.showLeds(`
         . . . . #
         . . . # .
