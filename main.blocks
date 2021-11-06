@@ -1,0 +1,121 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="]4:S?@{95_oNrMv6I]ue">strip</variable><variable id="6Cl8uzx@]1QM-RYbDaG#">couleur</variable></variables><block type="pxt-on-start" id="9kn5f3O(1lK|:o_g(?Zx" x="9" y="-109"><statement name="HANDLER"><block type="makerbit_infrared_connect_receiver" id="kWV?Lr(O}m%zny14_f4F"><field name="pin">DigitalPin.P2</field><field name="protocol">IrProtocol.Keyestudio</field><next><block type="basic_show_icon" id="dltQ~UNLB8+eUQC4Bj*y"><field name="i">IconNames.Square</field></block></next></block></statement></block><block type="makerbit_infrared_on_ir_button" id="=NO:xs|(w~@x|lrrJ`E," x="45" y="190"><field name="button">IrButton.Number_1</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="z1T9tF(5ZBVX=u8A{V7S"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="gf)%$W7*d5/2r{fJ5z2+" x="350" y="190"><field name="button">IrButton.Number_2</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="tLnQL#Ou:V`*u{@q96V+"><field name="LEDS">`
+        . # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="U.CMk[?@z@.iiGC5.{{K" x="661" y="194"><field name="button">IrButton.Number_3</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="2cO92$Y*,her*uAekj29"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="[Ov`-bYMdya$=,-vx46`" x="52" y="562"><field name="button">IrButton.Number_4</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="Sg]R-M--2jiCN`.9qWV("><field name="LEDS">`
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="8IfS8Kx%zgflTXdT:HcZ" x="369" y="562"><field name="button">IrButton.Number_5</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id=")wsGtUPnAW?V_^sg|Owu"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="d]2]ohnvX?Nt=*^qR7db" x="682" y="564"><field name="button">IrButton.Number_6</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="CA0kVhh9DB-7efePG3hR"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="W3|;A6P/!7.n)gO5Q_)k" x="62" y="905"><field name="button">IrButton.Number_7</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="THw/+z~P@hY`s/9LbSNf"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="k?ZreAV{s3*[|d)~Fe-k" x="375" y="909"><field name="button">IrButton.Number_8</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="v8m#nW@77m##Au9I-Odh"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="ulSz:~].OxHcC4,)-W,R" x="684" y="903"><field name="button">IrButton.Number_9</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="ci?U,.($M~R^x}B,@*Xg"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="lW($Ou#PjS@3j`O%t7Gm" x="66" y="1246"><field name="button">IrButton.Star</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="k*K1d`r/W^vMp{ZiccqB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="hN47G33F#H1bz}e{S/P+" x="390" y="1246"><field name="button">IrButton.Number_0</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="$9UL`,`C5%,_aTxk@o5O"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="pV!|E;0pesq!mug*Tf~$" x="715" y="1247"><field name="button">IrButton.Hash</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="QqE_S3TI}C^kZ(P1[};m"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="lwByH76fNAoL5oNomqGn" x="427" y="1592"><field name="button">IrButton.Up</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="jf}?+?ZId?pZXH8Qo$09"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="I*L6q)MuI=M2fBu=D_n@" x="819" y="1613"><field name="button">IrButton.Unused_2</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="]X`+l#xi.%b(r::;Ds+E"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="oK}[Jg9QVZpJ-MtBlb}r" x="77" y="1941"><field name="button">IrButton.Left</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="1i2u?v{-OF]~k`HYrG#1"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="Kle(ok`OYb37LdYvwNHc" x="450" y="1926"><field name="button">IrButton.Ok</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="bb6Z](l=K_X!Vx}PXr*n"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id=":d$Th`Y|IK:OH#6S#rfz" x="812" y="1930"><field name="button">IrButton.Right</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="JO+JpbG}IzVuZR~NtA)]"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="MZ;rzSwu!c#D?rdYa1uJ" disabled="true" x="97" y="2285"><field name="button">IrButton.Unused_3</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="/jqmk/1!7c*r}cY?][41" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        # . . . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="HujDHL5im08PJ5Dpx7@X" x="455" y="2279"><field name="button">IrButton.Down</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="eG:?8f!!@V$vLsc$I1a8"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block><block type="makerbit_infrared_on_ir_button" id="$`9nyIDv3-k!]Op,:^y*" disabled="true" x="830" y="2297"><field name="button">IrButton.Unused_4</field><field name="action">IrButtonAction.Pressed</field><statement name="HANDLER"><block type="device_show_leds" id="Tp,8MCv]2CPaL9,I]T0B" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . # . 
+        . . . . #
+        `</field></block></statement></block></xml>
